@@ -1,0 +1,161 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : custom css for OTSS online forms 
+ Author : 
+ URL : http://wufoo.com
+
+ Last Updated : March 9, 2016
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+/* - - - Default - - - */
+
+/* Logo */
+/*#logo a {background-image:url('http://wufoo.com/images/themes/logos/shark.png'); min-height:0; height:40px}*/
+
+ /* IE6 png Support */
+ /*html #logo a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+}*/
+
+
+
+
+
+/* Backgrounds */
+#container, html.embed {background-color:#ffffff;}
+html{background-image:none;background-color:#ffffff}
+#logo{background-image:none;background-color:#ffffff}
+#container{background:#ffffff}
+/*.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}*/
+.wufoo input.text, .wufoo textarea.textarea{background:#ffffff}
+.wufoo .focused{background:#ffffff}
+.wufoo li.focused {
+    background-color: #ffffff !important;
+}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+
+
+.wufoo {font-family: 'Open Sans', sans-serif !important; background:#ffffff !important; font-weight:400}
+.wufoo .info h2{font-size:110%;font-family: 'Open Sans', sans-serif !important; color:#000000;}
+.wufoo .info div{font-size:95%;font-family: 'Open Sans', sans-serif !important;color:#595959}
+.wufoo .section h3{font-size:160%;font-family: 'Open Sans', sans-serif !important;background:#f8f8f8;color:#012856 ; line-height:50px}
+.wufoo .section div{font-size:120%;font-family: 'Open Sans', sans-serif !important;color:#595959}
+.wufoo label.desc, .wufoo legend.desc{font-size:14px;font-family: 'Open Sans', sans-serif !important;color:#595959; font-weight:400 !important}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family: 'Open Sans', sans-serif !important;color:#595959}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family: 'Open Sans', sans-serif !important;color:#595959; background: #ffffff !important; padding: 10px}
+.wufoo select.select {
+	background:#ffffff !important;
+	border-top: 1px solid #c3c3c3;
+border-left: 1px solid #c3c3c3;
+border-right: 1px solid #c3c3c3;
+border-bottom: 1px solid #c3c3c3;
+}
+.wufoo label.choice{color:#595959}
+.wufoo .instruct{font-size:80%;font-family: 'Open Sans', sans-serif !important;color:#595959}
+.wufoo input.text, .wufoo textarea.textarea {
+    background: #ffffff;
+}
+input.text, input.search, textarea.textarea {
+    border-top: 1px solid #c3c3c3;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+   }
+   .leftLabel li div, .rightLabel li div {
+    float: left;
+    width: 60%;
+}
+section {
+	margin-top:20px;
+}
+
+input.btTxt.submit {
+	font-family: 'Open Sans', sans-serif !important;
+    padding: 10px;
+    width: auto;
+    overflow: visible;
+	background-color:#9f2137 !important;
+	color:#fff !important;
+	border:none !important;
+}
+
+input.medium, select.medium {
+    width: 80%;
+}
+
+form span.req {
+    display: inline;
+    float: none;
+    color: #ffcd11 !important;
+     font-weight:400 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.confirm h2 {
+    font-weight: normal !important;
+    font-size: 14px;
+    margin: 0 0 .2em 0;
+    line-height: 135%;
+    color: #333;
+    padding: 70px 0 80px 0;
+    text-align: left;
+}
+
+.wufoo-signature {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-family: 'Helvetica', arial, sans-serif !important;
+	font-size: 13px;
+	line-height: 18px;
+	width: 450px;
+	padding-left: 40px;
+}
+.wufoo-signature h3 {
+	font-size: 18px;
+	margin-bottom: -5px;
+	line-height: 17px;
+}
+.wufoo-signature .address {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	font-family: 'Helvetica', arial, sans-serif !important;
+	font-size: 13px;
+	line-height: 18px;
+	float: right;
+	text-align: right;
+}
+.wufoo-signature span, .address span {
+	margin-right: 5px;
+	color: #ffcd11;
+}
+img.block-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 14px;
+	height: 60px;
+}
+textarea.textarea {
+    /*max-width: 293px;*/
+    min-width: 96%!important;
+    max-width: 96%!important;
+}
